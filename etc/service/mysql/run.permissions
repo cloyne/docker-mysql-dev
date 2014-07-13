@@ -1,2 +1,2 @@
-mysql -u root -D mysql -e "INSERT INTO user VALUES('%','root','','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','','','','',0,0,0,0,'','');"
-mysql -u root -D mysql -e "CREATE DATABASE dev;"
+mysql -u root -D mysql -e "REPLACE INTO user VALUES('%','root','','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','','','','',0,0,0,0,'','');"
+mysql -u root -D mysql -e "CREATE DATABASE IF NOT EXISTS dev;"
